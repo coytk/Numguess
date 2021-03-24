@@ -2,7 +2,7 @@ import java.util.Scanner;
 class timegap{
     void tmgp(){
         try{
-            Thread.sleep(100);
+            Thread.sleep(1000);
         }catch(InterruptedException e){
         }
     }
@@ -56,6 +56,7 @@ public class App {
                 }
                 centernum=(range[0]+range[1])/2;
                 difference=range[1]-range[0];
+                
 
 
 
